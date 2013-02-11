@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Stardos+Stencil:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="twitter_data.js"></script>
+  <script type="text/javascript" src="twitter_ui.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.2/underscore-min.js"></script>
+</head>
+<body>
+	<div id="war-pigeon">
+		<button type="button" id="showAllTweets"></button>
+		<img id="scroll" src="scroll.png"/>
+		<button type="button" id="newTweets"></button>
+		<div id="all-tweets">
+		</div>
+	</div> 
+	<div id="slideout">
+  		<div id="slideout_inner">
+    		<form>
+    			<textarea onfocus="this.value='';">Enter your tweet here...</textarea>
+    			</br>
+    			<input type="submit" id="submittedTweet" value="Tweet!" />
+    		</form>
+    	</div>
+  	</div>
+</div>
+</body>
+</html>
